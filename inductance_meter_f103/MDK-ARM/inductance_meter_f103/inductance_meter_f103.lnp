@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"inductance_meter_f103\startup_stm32f103xb.o"
+"inductance_meter_f103\main.o"
+"inductance_meter_f103\stm32f1xx_it.o"
+"inductance_meter_f103\stm32f1xx_hal_msp.o"
+"inductance_meter_f103\tm_stm32_delay.o"
+"inductance_meter_f103\lcd.o"
+"inductance_meter_f103\stm32f1xx_hal_gpio_ex.o"
+"inductance_meter_f103\stm32f1xx_hal_tim.o"
+"inductance_meter_f103\stm32f1xx_hal_tim_ex.o"
+"inductance_meter_f103\stm32f1xx_hal.o"
+"inductance_meter_f103\stm32f1xx_hal_rcc.o"
+"inductance_meter_f103\stm32f1xx_hal_rcc_ex.o"
+"inductance_meter_f103\stm32f1xx_hal_gpio.o"
+"inductance_meter_f103\stm32f1xx_hal_dma.o"
+"inductance_meter_f103\stm32f1xx_hal_cortex.o"
+"inductance_meter_f103\stm32f1xx_hal_pwr.o"
+"inductance_meter_f103\stm32f1xx_hal_flash.o"
+"inductance_meter_f103\stm32f1xx_hal_flash_ex.o"
+"inductance_meter_f103\stm32f1xx_hal_exti.o"
+"inductance_meter_f103\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "inductance_meter_f103\inductance_meter_f103.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "inductance_meter_f103.map" -o inductance_meter_f103\inductance_meter_f103.axf
